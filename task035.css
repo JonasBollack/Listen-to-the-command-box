@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin:0;
+}
+table tbody tr td{
+	width: 60px;
+	height: 60px;
+	border:1px solid black;
+	position: relative;
+}
+table{
+	border-collapse: collapse;
+	float: left;
+}
+input{
+	margin-left: 16px;
+	width: 500px;
+	height: 33px
+}
+button{
+	width: 100px;
+	height: 40px;
+	background-color: rgb(97,205,255);
+	border-style: hidden;
+	border-radius: 10px;
+}
+.top div,.right div,.bottom div,.left div{
+    width: 100%;
+    height: 15px;
+    background-color: blue;
+ 
+
+}
+.top,.right,.bottom,.left{
+	background-color: red;
+
+}
+.top div{
+    width: 100%;
+    height: 15px;
+	position: absolute;
+	top:0;
+}
+.right div{
+	width: 15px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top:0;
+}
+.bottom div{
+    width: 100%;
+    height: 15px;
+	position: absolute;
+	bottom:0;
+}
+.left div{
+	width: 15px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.tittle{
+    width: 900px;
+    margin:10px 0 0 665px;
+    line-height: 1em;
+    font-size: 24px;
+}
+
+
+
+
+
